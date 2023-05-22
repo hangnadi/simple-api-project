@@ -6,8 +6,8 @@ import (
 	gnsq "github.com/nsqio/go-nsq"
 
 	"github.com/h2non/gock"
-	"github.com/simple-api-project/be/lib/nsq"
-	. "github.com/simple-api-project/be/lib/nsq/gonsq"
+	"github.com/hangnadi/simple-api-project/be/lib/nsq"
+	. "github.com/hangnadi/simple-api-project/be/lib/nsq/gonsq"
 	"github.com/stretchr/testify/assert"
 )
 

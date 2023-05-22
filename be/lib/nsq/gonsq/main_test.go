@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	. "github.com/simple-api-project/be/lib/nsq/gonsq"
+	. "github.com/hangnadi/simple-api-project/be/lib/nsq/gonsq"
 )
 
 func TestMain(m *testing.M) {
