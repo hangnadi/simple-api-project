@@ -6,7 +6,7 @@ import (
 
 	"github.com/hangnadi/simple-api-project/be/lib/env"
 	"github.com/hangnadi/simple-api-project/be/lib/language"
-	"github.com/nicksnyder/go-i18n/i18n"
+	"unknwon.dev/i18n"
 )
 
 type localeModule struct {
