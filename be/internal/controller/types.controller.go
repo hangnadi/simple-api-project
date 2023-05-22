@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"github.com/template/be/internal/repository"
+	"github.com/hangnadi/simple-api-project/be/internal/repository"
 )
 
 // Service module

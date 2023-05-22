@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	. "github.com/template/be/api"
+	. "github.com/hangnadi/simple-api-project/be/api"
 )
 
 func TestWriteResponseJSON(t *testing.T) {

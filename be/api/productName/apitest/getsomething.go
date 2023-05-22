@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/template/be/lib/language"
-	"github.com/template/be/lib/router"
-	"github.com/template/be/locale"
+	"github.com/hangnadi/simple-api-project/be/lib/language"
+	"github.com/hangnadi/simple-api-project/be/lib/router"
+	"github.com/hangnadi/simple-api-project/be/locale"
 )
 
 // Get all holidays

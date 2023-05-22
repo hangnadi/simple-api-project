@@ -3,7 +3,7 @@ package apitest
 import (
 	"context"
 
-	"github.com/template/be/lib/router"
+	"github.com/hangnadi/simple-api-project/be/lib/router"
 )
 
 var instance *Module

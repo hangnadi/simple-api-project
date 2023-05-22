@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
+	. "github.com/hangnadi/simple-api-project/be/lib/storage/redis"
 	"github.com/stretchr/testify/assert"
-	. "github.com/template/be/lib/storage/redis"
 )
 
 func TestInt(t *testing.T) {

@@ -3,8 +3,8 @@ package server_test
 import (
 	"testing"
 
+	. "github.com/hangnadi/simple-api-project/be/lib/server"
 	"github.com/stretchr/testify/assert"
-	. "github.com/template/be/lib/server"
 )
 
 func TestGetIPAddress(t *testing.T) {

@@ -1,7 +1,7 @@
 package usecase
 
 import (
-	"github.com/template/be/internal/controller"
+	"github.com/hangnadi/simple-api-project/be/internal/controller"
 )
 
 // NewSystem new system usecase

@@ -8,9 +8,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/hangnadi/simple-api-project/be/lib/storage/elastic"
+	. "github.com/hangnadi/simple-api-project/be/lib/storage/elastic/v5"
 	"github.com/stretchr/testify/assert"
-	"github.com/template/be/lib/storage/elastic"
-	. "github.com/template/be/lib/storage/elastic/v5"
 )
 
 func TestConnectError(t *testing.T) {

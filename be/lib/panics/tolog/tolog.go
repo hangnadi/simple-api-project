@@ -7,9 +7,9 @@ import (
 	"net/http/httputil"
 	"runtime/debug"
 
+	"github.com/hangnadi/simple-api-project/be/lib/panics"
+	"github.com/hangnadi/simple-api-project/be/lib/router"
 	nsq "github.com/nsqio/go-nsq"
-	"github.com/template/be/lib/panics"
-	"github.com/template/be/lib/router"
 )
 
 // New dummy panics

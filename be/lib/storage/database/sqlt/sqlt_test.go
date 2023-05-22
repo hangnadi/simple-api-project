@@ -3,8 +3,8 @@ package sqlt_test
 import (
 	"testing"
 
+	. "github.com/hangnadi/simple-api-project/be/lib/storage/database/sqlt"
 	"github.com/stretchr/testify/assert"
-	. "github.com/template/be/lib/storage/database/sqlt"
 )
 
 func TestNewFailed(t *testing.T) {

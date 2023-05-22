@@ -3,7 +3,7 @@ package repository_test
 import (
 	"testing"
 
-	. "github.com/template/be/internal/repository"
+	. "github.com/simple-api-project/be/internal/repository"
 )
 
 func TestSystemLogOpenFile(t *testing.T) {

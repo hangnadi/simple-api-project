@@ -23,10 +23,10 @@ import (
 	"time"
 
 	gops "github.com/google/gops/agent"
-	"github.com/template/be/cmd/internal"
-	logging "github.com/template/be/lib/logging"
-	"github.com/template/be/lib/server"
-	"github.com/template/be/locale"
+	"github.com/hangnadi/simple-api-project/be/cmd/internal"
+	logging "github.com/hangnadi/simple-api-project/be/lib/logging"
+	"github.com/hangnadi/simple-api-project/be/lib/server"
+	"github.com/hangnadi/simple-api-project/be/locale"
 )
 
 func main() {

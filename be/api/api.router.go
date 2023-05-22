@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/hangnadi/simple-api-project/be/ctxs"
+	"github.com/hangnadi/simple-api-project/be/lib/language"
+	"github.com/hangnadi/simple-api-project/be/lib/router"
+	"github.com/hangnadi/simple-api-project/be/locale"
 	"github.com/julienschmidt/httprouter"
 	opentracing "github.com/opentracing/opentracing-go"
-	"github.com/template/be/ctxs"
-	"github.com/template/be/lib/language"
-	"github.com/template/be/lib/router"
-	"github.com/template/be/locale"
 )
 
 var (

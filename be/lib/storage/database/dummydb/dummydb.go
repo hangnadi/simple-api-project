@@ -5,9 +5,9 @@ import (
 
 	// MySQL
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/hangnadi/simple-api-project/be/lib/sqlt"
+	"github.com/hangnadi/simple-api-project/be/lib/storage/database"
 	"github.com/jmoiron/sqlx"
-	"github.com/template/be/lib/sqlt"
-	"github.com/template/be/lib/storage/database"
 )
 
 // New dummy database

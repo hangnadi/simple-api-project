@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/hangnadi/simple-api-project/be/lib/env"
+	"github.com/hangnadi/simple-api-project/be/lib/language"
 	"github.com/nicksnyder/go-i18n/i18n"
-	"github.com/template/be/lib/env"
-	"github.com/template/be/lib/language"
 )
 
 type localeModule struct {

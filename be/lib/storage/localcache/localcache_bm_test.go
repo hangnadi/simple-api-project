@@ -3,7 +3,7 @@ package localcache_test
 import (
 	"testing"
 
-	. "github.com/template/be/lib/storage/localcache"
+	. "github.com/hangnadi/simple-api-project/be/lib/storage/localcache"
 )
 
 func BenchmarkSet(b *testing.B) {

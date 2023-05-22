@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
+	. "github.com/hangnadi/simple-api-project/be/lib/router"
 	"github.com/stretchr/testify/assert"
-	. "github.com/template/be/lib/router"
 )
 
 func TestError(t *testing.T) {

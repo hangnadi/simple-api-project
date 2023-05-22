@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/hangnadi/simple-api-project/be/cmd/internal"
+	testCon "github.com/hangnadi/simple-api-project/be/consumer/test"
+	"github.com/hangnadi/simple-api-project/be/lib/panics"
 	nsq "github.com/nsqio/go-nsq"
 	c "github.com/robfig/cron"
-	"github.com/template/be/cmd/internal"
-	testCon "github.com/template/be/consumer/test"
-	"github.com/template/be/lib/panics"
 )
 
 var allConsumers = []*nsq.Consumer{}

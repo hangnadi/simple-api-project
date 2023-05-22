@@ -9,10 +9,10 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 
 	// PostgreSQL
+	tkpdSqlt "github.com/hangnadi/simple-api-project/be/lib/sqlt"
+	"github.com/hangnadi/simple-api-project/be/lib/storage/database"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
-	tkpdSqlt "github.com/template/be/lib/sqlt"
-	"github.com/template/be/lib/storage/database"
 )
 
 // New sqlt module

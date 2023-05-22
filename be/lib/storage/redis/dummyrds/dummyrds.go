@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/template/be/lib/storage/redis"
+	"github.com/hangnadi/simple-api-project/be/lib/storage/redis"
 )
 
 // New module for mocking

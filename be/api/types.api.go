@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/hangnadi/simple-api-project/be/lib/router"
 	"github.com/julienschmidt/httprouter"
-	"github.com/template/be/lib/router"
 )
 
 type (

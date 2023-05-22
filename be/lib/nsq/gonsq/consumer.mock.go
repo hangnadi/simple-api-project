@@ -1,8 +1,8 @@
 package gonsq
 
 import (
+	"github.com/hangnadi/simple-api-project/be/lib/nsq"
 	nsqlib "github.com/nsqio/go-nsq"
-	"github.com/template/be/lib/nsq"
 )
 
 type mockConsumer struct {

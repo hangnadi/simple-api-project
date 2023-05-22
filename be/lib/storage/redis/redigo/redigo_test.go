@@ -3,8 +3,8 @@ package redigo_test
 import (
 	"testing"
 
+	. "github.com/hangnadi/simple-api-project/be/lib/storage/redis/redigo"
 	"github.com/stretchr/testify/assert"
-	. "github.com/template/be/lib/storage/redis/redigo"
 )
 
 func TestGet(t *testing.T) {

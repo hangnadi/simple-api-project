@@ -3,7 +3,7 @@ package dummy
 import (
 	"errors"
 
-	"github.com/template/be/lib/nsq"
+	"github.com/hangnadi/simple-api-project/be/lib/nsq"
 )
 
 // New GoNSQ module

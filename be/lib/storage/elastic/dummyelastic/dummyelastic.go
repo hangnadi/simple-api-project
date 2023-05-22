@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/template/be/lib/storage/elastic"
+	"github.com/hangnadi/simple-api-project/be/lib/storage/elastic"
 )
 
 // New dummy module

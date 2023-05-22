@@ -3,17 +3,17 @@ package internal
 import (
 	"log"
 
-	"github.com/template/be/lib/nsq"
-	"github.com/template/be/lib/nsq/gonsq"
-	"github.com/template/be/lib/panics"
-	"github.com/template/be/lib/panics/tolog"
-	"github.com/template/be/lib/panics/toslack"
-	"github.com/template/be/lib/storage/database"
-	"github.com/template/be/lib/storage/database/sqlt"
-	"github.com/template/be/lib/storage/elastic"
-	v5 "github.com/template/be/lib/storage/elastic/v5"
-	"github.com/template/be/lib/storage/redis"
-	"github.com/template/be/lib/storage/redis/redigo"
+	"github.com/hangnadi/simple-api-project/be/lib/nsq"
+	"github.com/hangnadi/simple-api-project/be/lib/nsq/gonsq"
+	"github.com/hangnadi/simple-api-project/be/lib/panics"
+	"github.com/hangnadi/simple-api-project/be/lib/panics/tolog"
+	"github.com/hangnadi/simple-api-project/be/lib/panics/toslack"
+	"github.com/hangnadi/simple-api-project/be/lib/storage/database"
+	"github.com/hangnadi/simple-api-project/be/lib/storage/database/sqlt"
+	"github.com/hangnadi/simple-api-project/be/lib/storage/elastic"
+	v5 "github.com/hangnadi/simple-api-project/be/lib/storage/elastic/v5"
+	"github.com/hangnadi/simple-api-project/be/lib/storage/redis"
+	"github.com/hangnadi/simple-api-project/be/lib/storage/redis/redigo"
 )
 
 // init NSQ prodocuer module

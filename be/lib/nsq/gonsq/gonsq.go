@@ -3,8 +3,8 @@ package gonsq
 import (
 	"log"
 
+	"github.com/hangnadi/simple-api-project/be/lib/nsq"
 	gnsq "github.com/nsqio/go-nsq"
-	"github.com/template/be/lib/nsq"
 )
 
 var (

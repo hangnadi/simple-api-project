@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/template/be/api"
-	"github.com/template/be/api/productName/apitest"
-	"github.com/template/be/cmd/internal"
-	"github.com/template/be/lib/panics"
+	"github.com/hangnadi/simple-api-project/be/api"
+	"github.com/hangnadi/simple-api-project/be/api/productName/apitest"
+	"github.com/hangnadi/simple-api-project/be/cmd/internal"
+	"github.com/hangnadi/simple-api-project/be/lib/panics"
 )
 
 // Initialize all routes for API

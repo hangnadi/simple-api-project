@@ -1,8 +1,8 @@
 package internal
 
 import (
+	"github.com/hangnadi/simple-api-project/be/internal/usecase"
 	nsqio "github.com/nsqio/go-nsq"
-	"github.com/template/be/internal/usecase"
 )
 
 // Config big struct

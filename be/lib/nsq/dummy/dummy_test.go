@@ -3,8 +3,8 @@ package dummy_test
 import (
 	"testing"
 
+	. "github.com/simple-api-project/be/lib/nsq/dummy"
 	"github.com/stretchr/testify/assert"
-	. "github.com/template/be/lib/nsq/dummy"
 )
 
 func TestPublishSuccess(t *testing.T) {

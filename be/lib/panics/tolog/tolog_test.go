@@ -8,10 +8,10 @@ import (
 	"testing"
 
 	"github.com/h2non/gock"
+	. "github.com/hangnadi/simple-api-project/be/lib/panics/tolog"
+	"github.com/hangnadi/simple-api-project/be/lib/router"
 	nsq "github.com/nsqio/go-nsq"
 	"github.com/stretchr/testify/assert"
-	. "github.com/template/be/lib/panics/tolog"
-	"github.com/template/be/lib/router"
 )
 
 func TestHandler(t *testing.T) {

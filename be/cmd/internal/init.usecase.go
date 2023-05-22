@@ -1,9 +1,9 @@
 package internal
 
 import (
-	"github.com/template/be/internal/controller"
-	"github.com/template/be/internal/repository"
-	"github.com/template/be/internal/usecase"
+	"github.com/hangnadi/simple-api-project/be/internal/controller"
+	"github.com/hangnadi/simple-api-project/be/internal/repository"
+	"github.com/hangnadi/simple-api-project/be/internal/usecase"
 )
 
 // GetUsecase for project

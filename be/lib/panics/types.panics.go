@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
+	"github.com/hangnadi/simple-api-project/be/lib/router"
 	nsq "github.com/nsqio/go-nsq"
-	"github.com/template/be/lib/router"
 )
 
 // A Panics interface provides logging for panic situation

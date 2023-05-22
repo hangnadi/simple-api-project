@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/template/be/lib/constants/env"
+	"github.com/hangnadi/simple-api-project/be/lib/constants/env"
 )
 
 func TestMain(m *testing.M) {

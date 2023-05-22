@@ -15,11 +15,11 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/hangnadi/simple-api-project/be/lib/generate"
+	"github.com/hangnadi/simple-api-project/be/lib/panics"
+	"github.com/hangnadi/simple-api-project/be/lib/router"
+	"github.com/hangnadi/simple-api-project/be/lib/slack"
 	nsq "github.com/nsqio/go-nsq"
-	"github.com/template/be/lib/generate"
-	"github.com/template/be/lib/panics"
-	"github.com/template/be/lib/router"
-	"github.com/template/be/lib/slack"
 )
 
 var newOnce sync.Once

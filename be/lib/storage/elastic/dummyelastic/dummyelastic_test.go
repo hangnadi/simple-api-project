@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/hangnadi/simple-api-project/be/lib/storage/elastic"
+	. "github.com/hangnadi/simple-api-project/be/lib/storage/elastic/dummyelastic"
 	"github.com/stretchr/testify/assert"
-	"github.com/template/be/lib/storage/elastic"
-	. "github.com/template/be/lib/storage/elastic/dummyelastic"
 )
 
 func TestGetClientSuccess(t *testing.T) {
