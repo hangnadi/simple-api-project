@@ -124,6 +124,10 @@ func IPAddressFromContext(ctx context.Context) (net.IP, bool) {
 // HEADER DATA
 // =============
 
+func DateKeyToContext(ctx context.Context, req *http.Request) context.Context {
+	return context.WithValue(ctx, XDeviceKey, req.Header.Get("X-Date"))
+}
+
 func DateKeyFromContext(ctx context.Context) (string, bool) {
 	ua, ok := ctx.Value(DateKey).(string)
 	return ua, ok
@@ -170,7 +174,7 @@ func OSTypeFromContext(ctx context.Context) (int, bool) {
 }
 
 func XUserIDHeaderKeyToContext(ctx context.Context, req *http.Request) context.Context {
-	return context.WithValue(ctx, XTkpdUserIDHeaderKey, req.Header.Get("x-tkpd-userid"))
+	return context.WithValue(ctx, XTkpdUserIDHeaderKey, req.Header.Get("x-app-userid"))
 }
 
 func XUserIDHeaderKeyFromContext(ctx context.Context) (int64, bool) {
@@ -233,7 +237,33 @@ func GetContextFromRequest(req *http.Request, opt ...func(context.Context, *http
 func GetAllContextFromRequest(req *http.Request) context.Context {
 	contentType := req.Header.Get("Content-Type")
 	if contentType == "application/vnd.api+json" || contentType == "application/json" {
-		return GetContextFromRequest(req, UserAgentToContext, IPAddressToContext, JSONToContext, IdempotencyKeyToContext, XUserIDHeaderKeyToContext, LanguageHeaderKeyToContext, XSourceHeaderKeyToContext, OSTypeContextToContext, DateKeyToContext, XDeviceToContext, XAppVersionToContext)
+		return GetContextFromRequest(
+			req,
+			UserAgentToContext,
+			IPAddressToContext,
+			JSONToContext,
+			IdempotencyKeyToContext,
+			XUserIDHeaderKeyToContext,
+			LanguageHeaderKeyToContext,
+			XSourceHeaderKeyToContext,
+			OSTypeContextToContext,
+			DateKeyToContext,
+			XDeviceToContext,
+			XAppVersionToContext,
+		)
 	}
-	return GetContextFromRequest(req, AllQSToContext, UserAgentToContext, IPAddressToContext, IdempotencyKeyToContext, XUserIDHeaderKeyToContext, LanguageHeaderKeyToContext, XSourceHeaderKeyToContext, OSTypeContextToContext, DateKeyToContext, XDeviceToContext, XAppVersionToContext)
+	return GetContextFromRequest(
+		req,
+		AllQSToContext,
+		UserAgentToContext,
+		IPAddressToContext,
+		IdempotencyKeyToContext,
+		XUserIDHeaderKeyToContext,
+		LanguageHeaderKeyToContext,
+		XSourceHeaderKeyToContext,
+		OSTypeContextToContext,
+		DateKeyToContext,
+		XDeviceToContext,
+		XAppVersionToContext,
+	)
 }
